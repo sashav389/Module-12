@@ -6,7 +6,7 @@ public class OneSecThread extends Thread{
 
     @Override
     public void run() {
-        System.out.println(seconds + " seconds program is running...");
+        System.out.println(seconds + " seconds program is running");
         seconds++;
     }
 }

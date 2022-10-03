@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
 
 public class StarterOfSecondTask {
 
-    public static final int N = 15;
+    public static final int N = 30;
 
     public void startSecondTask() {
 
@@ -21,6 +21,6 @@ public class StarterOfSecondTask {
         executorService.submit(new ThreadB(inQueue, outQueue));
         executorService.submit(new ThreadC(inQueue, outQueue));
         executorService.submit(new ThreadD(outQueue));
-        executorService.submit(new ThreadE(inQueue, outQueue));
+        executorService.submit(new ThreadForNumbers(inQueue, outQueue));
     }
 }

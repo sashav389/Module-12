@@ -2,12 +2,12 @@ package Task2;
 
 import java.util.Queue;
 
-public class ThreadE extends Thread{
+public class ThreadForNumbers extends Thread{
 
     private final Queue<Integer> inQueue;
     private final Queue<String> outQueue;
 
-    public ThreadE(Queue<Integer> inQueue, Queue<String> outQueue) {
+    public ThreadForNumbers(Queue<Integer> inQueue, Queue<String> outQueue) {
         this.inQueue = inQueue;
         this.outQueue = outQueue;
     }
